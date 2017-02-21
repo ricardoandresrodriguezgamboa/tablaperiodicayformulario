@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contacto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../css/estilos.css" />
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/lib/alertify.js"></script>
+		<link rel="stylesheet" href="../js/themes/alertify.core.css" />
+		<link rel="stylesheet" href="../js/themes/alertify.default.css" />
+
+	</head>
+	<body>
+			<header id="header" onclick="location.href='../home.html';">
+					<h1 id="logo">Ricardo Rodriguez - Pablo Rodriguez</h1>
+			</header>
+
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container 75%">
+					<header>
+                <form>                   
+                <div id="form">
+						    <h3 class="contacto">Contactenos </h3>
+                            <div class="separador"></div>
+                            <br />
+                            <br />
+                            <br />
+                          <label class="texto"  for="nombre"> Nombre </label> <br />
+                            <div class="separador2"></div>                
+                              <input type="text"  name="nombre" id="nombre">
+                                       <br />
+                                       <br />
+                          <label class="texto" for="email"> E-Mail </label> <br />
+                           <div class="separador2"></div>
+                            <input type="text"  name="email" id="email">
+                                       <br />
+                                       <br />
+                          <label class="texto"  for="pais"> Pais </label> <br />
+                           <div class="separador2"></div>
+                             <select id="options">
+                                <option value="" selected="selected">Seleccione...</option>
+                                <option value="argentina">argentina</option>                         
+                                <option value="brasil">brasil</option>
+                                <option value="chile">chile</option>
+                                <option value="costarica">costarica</option>
+                                <option value="colombia">colombia</option>
+                                <option value="ee.uu">ee.uu</option>
+                                <option value="venezuela">venezuela</option>
+                                <option value="paraguay">paraguay</option>
+                                <option value="peru">peru</option>
+                                <option value="uruguay">uruguay</option>
+                           </select>
+                                      <br />
+                                      <br />
+                           <label class="texto" for="estadocivil"> Estado Civil  </label> <br />  
+                             <div class="separador2"></div>
+                                      <br />
+                             <input type="radio" name="estadocivil"  value="Soltero" class="radio"> 
+                               <label class="texto2">Soltero.<label/> 
+                             <input type="radio" name="estadocivil"  value="Casado" class="radio">  
+                               <label class="texto2">Casado.<label/>
+                             <input type="radio" name="estadocivil"  value="Viudo" class="radio">
+                              <label class="texto2">Viudo.<label/>
+
+                           <br/>
+                           <br/>
+                          
+                          <h3 class="texto">Escribe tu comentario</h3> 
+                          <div class="separador2"></div>
+                           <br />
+                              <textarea name="comentario" id="comentario" class="cajas" cols="10" rows="8" placeholder="Comentarios"></textarea>
+                           <br />
+                             <input type="submit" id="submit" ><input type="reset" id="reset" value="Limpiar">
+                        </div>              
+                </form>
+					</header>
+				</div>
+			</section>
+    <script src="../js/script.js"></script>
+        <script src="../js/grunt.js"></script>
+	</body>
+</html>
